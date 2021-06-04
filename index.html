@@ -14,7 +14,11 @@
             <div class="panel">
                  <h1>Service Details</h1>
             </div>
-            <div class="infomat"></div>
+            <div class="infomat">
+                <div class="mat">
+
+                </div>
+            </div>
         </div>
     </body>
     <style>
@@ -61,6 +65,15 @@
 
         .infomat { 
             grid-area: right; 
+        }
+
+        .mat {
+            padding: 10px;
+            background-color: rgb(40,40,40);
+        }
+
+        @media only screen and (max-width: 300px) {
+            header h1 { font-size: smaller;}
         }
     </style>
 </html>
