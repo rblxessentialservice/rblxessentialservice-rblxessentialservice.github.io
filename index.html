@@ -8,6 +8,7 @@
     <body>
         <header>
             <img src="./images/icon.png">
+            <h1>ROBLOX Essential Service</h1>
         </header>
         <div class="page">
             <div class="panel">
@@ -19,10 +20,26 @@
     <style>
         body { background-color: rgb(30,30,30); margin: 0;}
 
-        header { background-color: rgb(40,40,40); min-height: 100px; box-shadow: 0 0 1rem rgba(0,0,0,0.5);}
+        header { 
+            background-color: rgb(40,40,40); 
+            min-height: 100px; 
+            box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+            display: grid;
+            grid-template-columns: 80px auto;
+            grid-template-areas: 'left right';
+        }
+
         header img {
             height: 80px;
             padding-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            grid-area: left;
+        }
+        header h1 {
+            color: white;
+            padding: 5px;
+            grid-area: right;
         }
         .page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white;}
 
