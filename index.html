@@ -8,10 +8,18 @@
         <header>
             
         </header>
+        <div class="page">
+            <div class="panel"></div>
+            <div class="infomat"></div>
+        </div>
     </body>
     <style>
         body { background-color: rgb(30,30,30); margin: 0;}
 
         header { background-color: rgb(40,40,40); min-height: 100px;}
+        .page { display: grid; grid-template-columns: 150px auto; grid-template-areas: 'left right';}
+
+        .panel { grid-area: left; background-color: rgb(40,40,40);}
+        .infomat { grid-area: right; }
     </style>
 </html>
