@@ -1,0 +1,64 @@
+body { background-color: rgb(30,30,30); margin: 0;}
+
+/* Header */
+header { 
+    background-color: rgb(40,40,40); 
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-areas: 'left right';
+    z-index: 10;
+}
+
+header img {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    grid-area: left;
+}
+header h1 {
+    color: rgb(200,200,200);
+    padding: 5px;
+    grid-area: right;
+    margin-block-start: 0; margin-block-end: 0;
+    margin: auto;
+    margin-left: 0;
+}
+
+/* Page */
+.page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white;}
+
+.panel { 
+    grid-area: left; 
+    background-color: rgb(40,40,40); 
+    padding: 0.5rem;
+}
+.panel h1 {
+    padding: 5px;
+    background-color: rgb(30,30,30);
+    font-size: 16px;
+    margin-block-start: 0; margin-block-end: 0;
+}
+
+.panel-build {
+    padding: 5px;
+    background-color: rgb(30,30,30);
+    font-size: 16px;
+}
+
+/* Maticom */
+.infomat { 
+    grid-area: right; 
+}
+
+.mat {
+    padding: 10px;
+    background-color: rgb(40,40,40);
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 300px) {
+    header h1 { font-size: medium;}
+}
