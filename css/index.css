@@ -59,6 +59,7 @@ header h1 {
 }
 
 .COMP_SUMMARY { cursor: pointer; }
+.COMP_SUMMARY:hover { border: grey solid 1px; }
 .COMP_SECTION a { color: lightblue; padding-left: 17.5px; }
 /* Maticom */
 .infomat { 
