@@ -48,6 +48,15 @@ header h1 {
     font-size: 16px;
 }
 
+#ID_COMP {
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#ID_COMP:hover {
+    background-color: rgb(20,20,20);
+}
 /* Maticom */
 .infomat { 
     grid-area: right; 
