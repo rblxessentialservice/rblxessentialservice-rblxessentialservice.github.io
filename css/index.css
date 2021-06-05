@@ -59,7 +59,7 @@ header h1 {
 }
 
 #UI_COMP_SUMMARY { cursor: pointer; }
-#UI_COMP_SECTION a { padding-left: 15px; color: lightblue; }
+#UI_COMP_SECTION a { padding-left: 16px; color: lightblue; }
 /* Maticom */
 .infomat { 
     grid-area: right; 
