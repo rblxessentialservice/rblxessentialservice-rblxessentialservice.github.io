@@ -50,12 +50,8 @@ header h1 {
     font-size: 16px;
 }
 
-.COMP {
-    cursor: pointer;
-    user-select: none;
-}
-
-.COMP_SUMMARY { cursor: pointer; transition: background-color 0.1s ease-in-out; }
+.COMP { user-select: none; }
+.COMP_SUMMARY { cursor: pointer; transition: background-color 0.1s ease-in-out; cursor: pointer; }
 .COMP_SUMMARY:hover { background-color: rgb(50,50,50); }
 .COMP_SECTION a { padding-left: 17.5px; }
 
@@ -75,4 +71,5 @@ header h1 {
 }
 
 .type-function { color: palevioletred;}
+.type-function:hover { background-color: rgb(122, 63, 83) ;}
 .type-link { color: lightblue; }
