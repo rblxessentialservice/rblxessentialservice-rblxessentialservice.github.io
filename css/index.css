@@ -18,6 +18,7 @@ header img {
     margin-left: 10px;
     grid-area: left;
 }
+
 header h1 {
     color: rgb(200,200,200);
     padding: 5px;
@@ -28,7 +29,7 @@ header h1 {
 }
 
 /* Page */
-.page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white;}
+.page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white; }
 
 .panel { 
     grid-area: left; 
@@ -71,4 +72,8 @@ header h1 {
 
 @media only screen and (max-width: 300px) {
     header h1 { font-size: medium;}
+}
+
+.type-function {
+    color: palevioletred;
 }
