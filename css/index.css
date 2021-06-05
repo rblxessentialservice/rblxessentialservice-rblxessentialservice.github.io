@@ -57,7 +57,7 @@ header h1 {
 
 .COMP_SUMMARY { cursor: pointer; transition: background-color 0.1s ease-in-out; }
 .COMP_SUMMARY:hover { background-color: rgb(50,50,50); }
-.COMP_SECTION a { color: lightblue; padding-left: 17.5px; }
+.COMP_SECTION a { padding-left: 17.5px; }
 
 /* Maticom */
 .infomat { 
@@ -74,6 +74,5 @@ header h1 {
     header h1 { font-size: medium;}
 }
 
-#type-function {
-    color: palevioletred;
-}
+.type-function { color: palevioletred;}
+.type-link { color: lightblue; }
