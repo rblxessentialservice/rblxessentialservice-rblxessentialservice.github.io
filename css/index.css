@@ -57,6 +57,9 @@ header h1 {
 #ID_COMP:hover {
     background-color: rgb(20,20,20);
 }
+
+#UI_COMP_SUMMARY { cursor: pointer; }
+#UI_COMP_SECTION a { padding-left: 15px; }
 /* Maticom */
 .infomat { 
     grid-area: right; 
