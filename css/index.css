@@ -53,7 +53,7 @@ header h1 {
 .COMP { user-select: none; }
 .COMP_SUMMARY { cursor: pointer; transition: background-color 0.1s ease-in-out; cursor: pointer; }
 .COMP_SUMMARY:hover { background-color: rgb(50,50,50); }
-.COMP_SECTION a { margin-left: 17.5px; display: block; text-decoration: none; }
+.COMP_SECTION a { margin-left: 17.5px; text-decoration: none; }
 
 /* Maticom */
 .infomat { 
