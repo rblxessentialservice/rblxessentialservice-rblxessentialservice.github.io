@@ -31,10 +31,7 @@ header h1 {
 /* Page */
 .page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white; }
 
-.panel { 
-    grid-area: left; 
-    background-color: rgb(40,40,40); 
-    padding: 0.5rem;
+.panel { grid-area: left;  background-color: rgb(40,40,40); padding: 0.5rem;
 }
 .panel h1 {
     padding: 5px;
@@ -69,6 +66,7 @@ header h1 {
 
 @media only screen and (max-width: 300px) {
     header h1 { font-size: medium;}
+    .page { grid-template-columns: 150px auto; }
 }
 
 .type-function { color: palevioletred;}
