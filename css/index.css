@@ -31,8 +31,7 @@ header h1 {
 /* Page */
 .page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white; overflow: hidden; }
 
-.panel { grid-area: left;  background-color: rgb(40,40,40); padding: 0.5rem;
-}
+.panel { grid-area: left;  background-color: rgb(40,40,40); padding: 0.5rem; }
 .panel h1 {
     padding: 5px;
     background-color: rgb(30,30,30);
