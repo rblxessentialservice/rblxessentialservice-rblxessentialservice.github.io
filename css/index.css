@@ -29,7 +29,7 @@ header h1 {
 }
 
 /* Page */
-.page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white; }
+.page { display: grid; grid-template-columns: 250px auto; grid-template-areas: 'left right'; color: white; overflow: hidden; }
 
 .panel { grid-area: left;  background-color: rgb(40,40,40); padding: 0.5rem;
 }
@@ -66,7 +66,7 @@ header h1 {
 
 @media only screen and (max-width: 300px) {
     header h1 { font-size: medium;}
-    .page { grid-template-columns: 0px auto; overflow: hidden; }
+    .page { grid-template-columns: 0px auto;}
 }
 
 .type-function { color: palevioletred;}
