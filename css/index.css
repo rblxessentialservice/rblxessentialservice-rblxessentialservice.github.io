@@ -8,6 +8,7 @@ header {
     grid-template-columns: 60px auto;
     grid-template-areas: 'left right';
     z-index: 10;
+    position: relative;
 }
 
 header img {
@@ -65,7 +66,6 @@ header h1 {
 
 @media only screen and (max-width: 450px) {
     header h1 { font-size: medium;}
-    header { position: relative; z-index: 100;}
     .page { grid-template-columns: 0px auto;}
     .mat { margin: 0rem; }
 }
