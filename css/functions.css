@@ -5,3 +5,9 @@
     display: block;
 }
 #goback1:hover { color: lightblue; }
+
+.function {
+    padding: 10px;
+    background: black;
+    margin: 10px;
+}
