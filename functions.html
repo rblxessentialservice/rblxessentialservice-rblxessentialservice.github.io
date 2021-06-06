@@ -76,7 +76,18 @@
                     <div class="function" id="opacity">
                         <h3>Opacity(v:Ie, x:Number | TweenInfo)</h3>
                         <p>
-                            
+                            Opacity is a pretty cool function to use for you UI Elements.<br> 
+                            Why? Well this not only changes the transparency of the element you gave to the function, it will make the whole transparency of the element contents to the same.<br>
+                            This includes: TextTransparency, BackgroundTransparency, ImageTransparency and maybe some others;
+                            <section class="code-s">
+                                <span class="TL">local </span>Element = <span class="TL">script</span>.Parent:<span class="Func">WaitForChild</span>(<span class="Str">"ButtonOn"</span>)
+                                <br><br>
+                                RES.<span class="Func">Opacity</span>(Element, <span class="Num">0.25</span>)
+                            </section>
+                            Another example would be the fact that you can use TweenInfo to make it change slowly in a Tween;
+                            <section class="code-s">
+                                RES.<span class="Func">Opacity</span>(Element, <span class="TL">TweenInfo.new</span>(<span class="Num">0.6</span>))
+                            </section>
                         </p>
                     </div>
                 </div>
