@@ -20,4 +20,4 @@
 .code-s {
     display: block; padding: 5px; background-color: rgb(50,50,50); margin-top: 5px; margin-bottom: 5px;
 }
-.code-s:focus { border: grey solid 1px; padding: 4px }
+.code-s:active { border: grey solid 1px; padding: 4px }
