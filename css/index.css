@@ -66,6 +66,7 @@ header h1 {
 @media only screen and (max-width: 300px) {
     header h1 { font-size: medium;}
     .page { grid-template-columns: 0px auto;}
+    .mat { margin: 0rem; }
 }
 
 .type-function { color: palevioletred;}
