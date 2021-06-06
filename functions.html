@@ -62,7 +62,15 @@
                     <div class="function" id="replace">
                         <h3>Replace(v1:Ie, v2:Ie)</h3>
                         <p>
-                            
+                            Replace can be used to replace ui elements together. For example lets say you wanted to toggle something from somewhere else to
+                            the other elements place. Toggle Buttons Example;
+                            <section class="code-s">
+                                <span class="TL">local </span>Button1 = <span class="TL">script</span>.Parent:<span class="Func">WaitForChild</span>(<span class="Str">"ButtonOn"</span>)<br>
+                                <span class="TL">local </span>Button2 = <span class="TL">script</span>.Parent:<span class="Func">WaitForChild</span>(<span class="Str">"ButtonOff"</span>)
+                                <br><br>
+                                RES.<span class="Func">Replace</span>(Button1, Button2)
+                            </section>
+                            What this would do is; Button1 would be in the same parent as Button2 vice versa.
                         </p>
                     </div>
                     <div class="function" id="opacity">
