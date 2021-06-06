@@ -64,6 +64,8 @@ header h1 {
     margin: 1rem;
 }
 
+.mat { margin-block-start: 0;}
+
 @media only screen and (max-width: 450px) {
     header h1 { font-size: medium;}
     .page { grid-template-columns: 0px auto;}
