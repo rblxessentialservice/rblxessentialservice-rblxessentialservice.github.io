@@ -16,6 +16,7 @@
 .Par { color: palevioletred }
 .Str { color: rgb(148, 148, 148) }
 .Func { color: orange }
+.Snd { color: lightblue }
 
 .code-s {
     display: block; padding: 5px; background-color: rgb(50,50,50); margin-top: 5px; margin-bottom: 5px;
