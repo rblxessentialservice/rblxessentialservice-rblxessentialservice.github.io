@@ -44,13 +44,18 @@
                         <p>
                             Create is used to create a new ui component / element to add to your game.<br>
                             The function would be written like this;
-                            <section style="display: block; padding: 5px; background-color: rgb(50,50,50);">
+                            <section class="code-s">
                                     <span class="Ttl">local </span>RES = <span class="Par">require</span>(source)<br><br>
                                     <span class="Ttl">local </span>Element = RES.<span class="Func">Create</span>(<span class="Str"">"ScrollingFrame"</span>, 
                                     {<br>
                                         &nbsp;&nbsp;&nbsp;&nbsp; Auto = <span class="Str">"XY"</span>,<br>
                                         &nbsp;&nbsp;&nbsp;&nbsp; Color = nil<br>
                                     })
+                            </section>
+                            Now you have the element created you can do the following;
+                            <section class="code-s">
+                                Element.Visible = true
+                                Element.Parent = <span class="TL">script</span>.Parent
                             </section>
                         </p>
                     </div>

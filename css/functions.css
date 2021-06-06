@@ -12,7 +12,11 @@
     margin-bottom: 10px; margin-top: 10px;
 }
 
-.Ttl { color: deepskyblue }
+.TL { color: deepskyblue }
 .Par { color: palevioletred }
 .Str { color: rgb(148, 148, 148) }
 .Func { color: orange }
+
+.code-s {
+    display: block; padding: 5px; background-color: rgb(50,50,50);
+}
