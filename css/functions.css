@@ -1,5 +1,7 @@
 #goback1 {
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
     color: white; text-decoration: none; background-color: black;
     display: block;
 }
+#goback1:hover { color: lightblue; }
