@@ -5,7 +5,7 @@ header {
     background-color: rgb(40,40,40); 
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     display: grid;
-    grid-template-columns: 60px auto;
+    grid-template-columns: 60px auto 60px;
     grid-template-areas: 'left middle right';
     z-index: 10;
     position: relative;
