@@ -6,12 +6,12 @@ header {
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     display: grid;
     grid-template-columns: 60px auto;
-    grid-template-areas: 'left right';
+    grid-template-areas: 'left middle right';
     z-index: 10;
     position: relative;
 }
 
-header img {
+header img.icon {
     height: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -23,7 +23,7 @@ header img {
 header h1 {
     color: rgb(200,200,200);
     padding: 5px;
-    grid-area: right;
+    grid-area: middle;
     margin-block-start: 0; margin-block-end: 0;
     margin: auto;
     margin-left: 0;
