@@ -20,7 +20,7 @@ header img {
     grid-area: right;
 }
 
-#list-icon {display: none;}
+#list { display: none; }
 
 header img.icon {
     grid-area: left;
