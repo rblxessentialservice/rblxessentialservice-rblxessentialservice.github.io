@@ -11,12 +11,16 @@ header {
     position: relative;
 }
 
-header img.icon {
+header img {
     height: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    grid-area: right;
+}
+
+header img.icon {
     grid-area: left;
 }
 
