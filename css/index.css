@@ -76,7 +76,7 @@ header h1 {
     header h1 { font-size: medium;}
     .page { grid-template-columns: 0px auto;}
     .mat { margin: 0rem; }
-    #list-Icon {
+    #list {
         display: block;
     }
 }
