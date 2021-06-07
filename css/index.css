@@ -20,7 +20,7 @@ header img {
     grid-area: right;
 }
 
-#list { height: 30px; padding-top: 15px; opacity: 0.7 }
+#list { display: none; height: 30px; padding-top: 15px; opacity: 0.7 }
 #list:hover { opacity: 1; cursor: pointer; }
 
 header img.icon {
@@ -77,6 +77,7 @@ header h1 {
     header h1 { font-size: medium;}
     .page { grid-template-columns: 0px auto;}
     .mat { margin: 0rem; }
+    #list { display: block;}
 }
 
 .type-function { color: palevioletred;}
