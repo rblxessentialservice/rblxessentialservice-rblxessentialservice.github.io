@@ -75,9 +75,8 @@ header h1 {
 
 @media only screen and (max-width: 450px) {
     header h1 { font-size: medium;}
-    .page { grid-template-columns: 0px auto;}
+    .page { display: block; }
     .mat { margin: 0rem; }
-    #list { display: block;}
 }
 
 .type-function { color: palevioletred;}
